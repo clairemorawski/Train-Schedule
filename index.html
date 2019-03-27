@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Schedule</title>
+    <!--Link to Reset-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!--Link to Style-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--Link to Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" id="head-container">
+        <div class="jumbotron" id="head">
+            <h1>Salt Lake City</h1>
+            <h3>All Aboard!</h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-xs-12 col-sm-9">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="panel-title"></div>
+                    Train Schedule
+                </div>
+                <table class="table table-hover">
+                    <tr>
+                        <th scope="col">Train Name</th>
+                        <th scope="col">Destination</th>
+                        <th scope="col">Frequency (minutes)</th>
+                        <th scope="col">Next Arrival</th>
+                        <th scrope="col">Minutes Away</th>
+                    </tr>
+                    <tbody id="table-data"></tbody>
+                </table>
+                </hr>
+            </div>
+
+            <div class="col-xs-12 col-sm-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Add New Train</h3>
+                        <div>
+                            <div class="panel-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label>Train Name</label>
+                                        <input type="text" class="form-control form-field" id="train-name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Destination</label>
+                                        <input type="text" class="form-control form-field" id="destination">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>First Train Time: HH:mm</label>
+                                        <input type="text" class="form-control form-field" id="first-train">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Frequency (minutes)</label>
+                                        <input type="text" class="form-control form-field" id="frequency">
+                                    </div>
+
+                                    <button type="submit" class="btn btn-default" id="submit">Add Train</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Link to jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--Link to materialize-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <!--Link to javascript-->
+    <script type="text/javascript" src="assets/javascript/main.js"></script>
+
+</body>
+
+</html>

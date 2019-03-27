@@ -1,0 +1,79 @@
+#head-container {
+    margin-top: 1%;
+}
+
+#head {
+    text-align: center;
+    background-color: darkgrey;
+    color: white;
+    padding: 2%;
+}
+
+.panel-custom {
+    background-color: darkgrey;
+    color: white;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th {
+    margin: 1% 1% 0 1%;
+    padding: 3% 3% 0 3%;
+    width: 1%;
+}
+
+hr {
+    margin: 1%;
+}
+
+td {
+    margin: 1% 1% 0 1%;
+    padding: 3% 3% 0 3%;
+    width: 1%;
+}
+
+body {
+    background-color: darkgrey;
+    text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+  }
+
+#heading {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  #subHeading {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .panel-title {
+    font-weight: bold;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+
+  label {
+      font-weight: bold;
+  }
+
+  .panel-custom {
+      font-weight: bold;
+  }
+
+  button {
+    text-align: center;
+	font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+  }
